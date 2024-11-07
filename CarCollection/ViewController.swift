@@ -7,11 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource {
+    @IBOutlet var table: UITableView!
+    @IBOutlet var field: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        table.delegate = self
+        field.delegate = self
+        table.dataSource = self
     }
 
 
