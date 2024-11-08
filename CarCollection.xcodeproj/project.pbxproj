@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E852C2622CDDEB6A00B0751D /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852C2602CDDEB6A00B0751D /* CarTableViewCell.swift */; };
+		E852C2632CDDEB6A00B0751D /* CarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E852C2612CDDEB6A00B0751D /* CarTableViewCell.xib */; };
 		E86DD6A82CDC8C9700C36136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86DD6A72CDC8C9700C36136 /* AppDelegate.swift */; };
 		E86DD6AA2CDC8C9700C36136 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86DD6A92CDC8C9700C36136 /* SceneDelegate.swift */; };
 		E86DD6AC2CDC8C9700C36136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86DD6AB2CDC8C9700C36136 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E852C2602CDDEB6A00B0751D /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		E852C2612CDDEB6A00B0751D /* CarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarTableViewCell.xib; sourceTree = "<group>"; };
 		E86DD6A42CDC8C9700C36136 /* CarCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86DD6A72CDC8C9700C36136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E86DD6A92CDC8C9700C36136 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				E86DD6B02CDC8C9800C36136 /* Assets.xcassets */,
 				E86DD6B22CDC8C9800C36136 /* LaunchScreen.storyboard */,
 				E86DD6B52CDC8C9800C36136 /* Info.plist */,
+				E852C2602CDDEB6A00B0751D /* CarTableViewCell.swift */,
+				E852C2612CDDEB6A00B0751D /* CarTableViewCell.xib */,
 			);
 			path = CarCollection;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				E86DD6B42CDC8C9800C36136 /* LaunchScreen.storyboard in Resources */,
 				E86DD6B12CDC8C9800C36136 /* Assets.xcassets in Resources */,
+				E852C2632CDDEB6A00B0751D /* CarTableViewCell.xib in Resources */,
 				E86DD6AF2CDC8C9700C36136 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				E86DD6AC2CDC8C9700C36136 /* ViewController.swift in Sources */,
 				E86DD6A82CDC8C9700C36136 /* AppDelegate.swift in Sources */,
+				E852C2622CDDEB6A00B0751D /* CarTableViewCell.swift in Sources */,
 				E86DD6AA2CDC8C9700C36136 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CarTableViewCell" rowHeight="224" id="KGk-i7-Jjw" customClass="CarTableViewCell" customModule="CarCollection" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="472" height="224"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="472" height="224"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gMr-ci-Ig8">
+                        <rect key="frame" x="10" y="10" width="200" height="204"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="T0R-DH-rpr"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1i-pG-Mgh">
+                        <rect key="frame" x="220" y="10" width="150" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="6eV-4s-Nbs"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="170" id="GFy-OJ-N7b"/>
+                            <constraint firstAttribute="width" constant="150" id="yEy-Va-nrG"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="170" id="yq4-fW-xPK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JKq-KD-FEv">
+                        <rect key="frame" x="230" y="100" width="140" height="20.333333333333329"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="e1i-pG-Mgh" secondAttribute="trailing" constant="10" id="0ke-6l-0ug"/>
+                    <constraint firstAttribute="trailing" secondItem="e1i-pG-Mgh" secondAttribute="trailing" constant="10" id="9wS-fe-zUm"/>
+                    <constraint firstItem="gMr-ci-Ig8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="9wx-mA-amC"/>
+                    <constraint firstItem="e1i-pG-Mgh" firstAttribute="leading" secondItem="gMr-ci-Ig8" secondAttribute="trailing" constant="20" id="BGK-ij-KpZ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="JKq-KD-FEv" secondAttribute="bottom" constant="20" id="Cv7-Bq-mWD"/>
+                    <constraint firstItem="JKq-KD-FEv" firstAttribute="top" secondItem="e1i-pG-Mgh" secondAttribute="bottom" constant="10" id="D1o-g4-OZq"/>
+                    <constraint firstAttribute="trailing" secondItem="e1i-pG-Mgh" secondAttribute="trailing" constant="10" id="HHD-AL-tsE"/>
+                    <constraint firstItem="JKq-KD-FEv" firstAttribute="leading" secondItem="gMr-ci-Ig8" secondAttribute="trailing" constant="20" id="HS9-ul-c3s"/>
+                    <constraint firstItem="JKq-KD-FEv" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="10" id="Lls-be-2lC"/>
+                    <constraint firstAttribute="trailing" secondItem="e1i-pG-Mgh" secondAttribute="trailing" constant="10" id="NFb-0x-nF0"/>
+                    <constraint firstAttribute="bottom" secondItem="gMr-ci-Ig8" secondAttribute="bottom" constant="10" id="Sbp-2c-E6s"/>
+                    <constraint firstItem="gMr-ci-Ig8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Uq9-Fd-l8J"/>
+                    <constraint firstItem="e1i-pG-Mgh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="XUl-08-Ldz"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="JKq-KD-FEv" secondAttribute="trailing" constant="10" id="cDC-nS-c25"/>
+                    <constraint firstAttribute="trailing" secondItem="gMr-ci-Ig8" secondAttribute="trailing" constant="200" id="loz-hI-Dpa"/>
+                    <constraint firstItem="e1i-pG-Mgh" firstAttribute="leading" secondItem="gMr-ci-Ig8" secondAttribute="trailing" constant="10" id="pwE-Lk-yCk"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="JKq-KD-FEv" secondAttribute="trailing" constant="10" id="q0d-qT-M60"/>
+                    <constraint firstAttribute="bottom" secondItem="e1i-pG-Mgh" secondAttribute="bottom" constant="10" id="rRI-or-IKa"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="JKq-KD-FEv" secondAttribute="bottom" constant="20" id="vef-UQ-2rW"/>
+                    <constraint firstAttribute="trailing" secondItem="e1i-pG-Mgh" secondAttribute="trailing" constant="10" id="ycG-pK-jUz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="carPosterImageView" destination="gMr-ci-Ig8" id="wBA-4A-MZg"/>
+                <outlet property="carTitleLabel" destination="e1i-pG-Mgh" id="ySs-rd-GUH"/>
+                <outlet property="carYearLabel" destination="JKq-KD-FEv" id="uoP-J2-mxt"/>
+            </connections>
+            <point key="canvasLocation" x="120.61068702290076" y="83.098591549295776"/>
+        </tableViewCell>
+    </objects>
+</document>
